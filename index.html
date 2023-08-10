@@ -5,8 +5,32 @@
     <title>Monster is Coming</title>
     <link rel="stylesheet" type="text/css" href="kill.css">
 </head>
-<body>
+<script>
+    function displayTime() {
+        var date = new Date();  // 获取当前日期和时间
+        var time = date.toLocaleTimeString();  // 格式化为本地时间字符串
 
+        document.getElementById('time').textContent = time;  // 将时间显示在指定的元素中
+        document.getElementById('time1').textContent = time;
+        setTimeout(displayTime, 1000);  // 每秒钟更新时间
+    }
+</script>
+<body onload="displayTime()">
+
+
+<div class="navbar">
+    <as href=" ">Bloods</as>
+    <a href="index.html"> 杨立德</a>
+    <a href="qingyuan.html">清远</a>
+    <a href="liuchunshen.html">刘春生</a>
+    <a href="yangsen.html">杨森</a>
+    <a href="other.html">更多亲人</a>
+  <a><span id="time"></span></a>
+    <div class="search-container">
+        <input type="text" placeholder="搜索..." name="search">
+        <button type="submit">搜索</button>
+    </div>
+</div>
 <div class="container">
     <div class="boxtop">
         <div class="texttitle">
@@ -20,10 +44,13 @@
     <div class="text">**最好的方式自然是好聚好散让法律审判**</div>
 </div>
 <div class="box2">
-    <div class="textbox" style="font-size: 40px;text-align: center">今日验证已完成</div>
+    <div class="pix2"></div>
+    <div class="textbox" style="font-size: 40px;text-align: center">被保护人安全验证</div>
+    <p>time: <span id="time1" ></span></p>
    <p>注：若当日验证未完成则代表失联， 将自动上传数据至公安部系统及在地下网络发布悬赏，以此保护人生安全。</p>
 </div>
 <div class="box2">
+    <div class="pix"></div>
     <div class="textbox" style="text-align: center;">CHN备案信息</div>
     <div class="textbox">姓名: 杨立德  </div>
     <div class="textbox">身份证: 612324196610020018  </div>
@@ -48,14 +75,14 @@
 </div>
 <div class="box2">
     <div class="textbox" style="text-align: center;">购物平台收货地址</div>
-    <div class="textbox">   收件地址1: 广东░░░░░░░░建楼</div>
-    <div class="textbox">   收件地址2: 广东░░░░░░░░░░░░░░4栋</div>
-    <div class="textbox">   收件地址3: 陕西░░░░░░░░░░░░░提）</div>
-    <div class="textbox">   收件地址4: 广东░░░░░░░░░░░░░░░01</div>
-    <div class="textbox">   收件地址5: 广东*********************安处</div>
-    <div class="textbox">   收件地址6: 广东**********************33</div>
-    <div class="textbox">   收件地址7: 广东****************站</div>
-    <div class="textbox">   收件地址8: 广东**********************。）</div>
+    <div class="textbox">   地址1: 广东░░░░░░░░建楼</div>
+    <div class="textbox">  地址2: 广东░░░░░░░░░░░░░░4栋</div>
+    <div class="textbox">   地址3: 陕西░░░░░░░░░░░░░提）</div>
+    <div class="textbox">   地址4: 广东░░░░░░░░░░░░░░░01</div>
+    <div class="textbox">  地址5: 广东*********************安处</div>
+    <div class="textbox">  地址6: 广东**********************33</div>
+    <div class="textbox">   地址7: 广东****************站</div>
+    <div class="textbox">   地址8: 广东**********************。）</div>
     <div class="textbox">   等20余条地址及交易信息，最新信息为2023年8月获取</div>
 </div>
 <div class="box2">
